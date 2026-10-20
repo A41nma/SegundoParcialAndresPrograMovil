@@ -7,10 +7,10 @@ export default function Boton({ titulo, onPress }: Props) {
     <Pressable
       onPress={onPress}
       style={{
-        backgroundColor: "#5e1111",
-        paddingVertical: 12,
-        paddingHorizontal: 24,
-        borderRadius: 8,
+        backgroundColor: "#6552FE",
+        paddingVertical: 14,
+        paddingHorizontal: 115,
+        borderRadius: 10,
       }}
     >
       <Text style={{ color: "#fff" }}>{titulo}</Text>
